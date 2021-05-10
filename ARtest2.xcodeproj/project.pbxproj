@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D255017F25FBE2430017F2A4 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255017E25FBE2430017F2A4 /* ARModel.swift */; };
+		D255018225FBE3460017F2A4 /* ARDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255018125FBE3460017F2A4 /* ARDisplayView.swift */; };
+		D255018525FD9A620017F2A4 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255018425FD9A620017F2A4 /* ProductViewModel.swift */; };
+		D255018825FD9AA00017F2A4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255018725FD9AA00017F2A4 /* Product.swift */; };
+		D255018B25FE36090017F2A4 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255018A25FE36090017F2A4 /* BarcodeScanner.swift */; };
+		D255018E25FE38AB0017F2A4 /* View+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255018D25FE38AB0017F2A4 /* View+Snapshot.swift */; };
+		D255019125FFCB5F0017F2A4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D255019025FFCB5F0017F2A4 /* ImagePicker.swift */; };
 		D2CA1C4425FAB8920037A0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA1C4325FAB8920037A0E4 /* AppDelegate.swift */; };
 		D2CA1C4625FAB8920037A0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CA1C4525FAB8920037A0E4 /* ContentView.swift */; };
 		D2CA1C4825FAB8920037A0E4 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D2CA1C4725FAB8920037A0E4 /* Experience.rcproject */; };
 		D2CA1C4A25FAB8940037A0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CA1C4925FAB8940037A0E4 /* Assets.xcassets */; };
 		D2CA1C4D25FAB8940037A0E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CA1C4C25FAB8940037A0E4 /* Preview Assets.xcassets */; };
+		D2D11754260630F900599C4D /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D11753260630F900599C4D /* MainMenuView.swift */; };
+		D2D117572606C9A200599C4D /* ARGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D117562606C9A200599C4D /* ARGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D255017E25FBE2430017F2A4 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		D255018125FBE3460017F2A4 /* ARDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDisplayView.swift; sourceTree = "<group>"; };
+		D255018425FD9A620017F2A4 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		D255018725FD9AA00017F2A4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D255018A25FE36090017F2A4 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		D255018D25FE38AB0017F2A4 /* View+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Snapshot.swift"; sourceTree = "<group>"; };
+		D255019025FFCB5F0017F2A4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D2CA1C4025FAB8910037A0E4 /* ARtest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARtest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CA1C4325FAB8920037A0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CA1C4525FAB8920037A0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +38,8 @@
 		D2CA1C4925FAB8940037A0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CA1C4C25FAB8940037A0E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2CA1C4E25FAB8940037A0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D11753260630F900599C4D /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		D2D117562606C9A200599C4D /* ARGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,15 @@
 			children = (
 				D2CA1C4325FAB8920037A0E4 /* AppDelegate.swift */,
 				D2CA1C4525FAB8920037A0E4 /* ContentView.swift */,
+				D2D11753260630F900599C4D /* MainMenuView.swift */,
+				D255019025FFCB5F0017F2A4 /* ImagePicker.swift */,
+				D255018D25FE38AB0017F2A4 /* View+Snapshot.swift */,
+				D255018125FBE3460017F2A4 /* ARDisplayView.swift */,
+				D2D117562606C9A200599C4D /* ARGameView.swift */,
+				D255017E25FBE2430017F2A4 /* ARModel.swift */,
+				D255018425FD9A620017F2A4 /* ProductViewModel.swift */,
+				D255018725FD9AA00017F2A4 /* Product.swift */,
+				D255018A25FE36090017F2A4 /* BarcodeScanner.swift */,
 				D2CA1C4725FAB8920037A0E4 /* Experience.rcproject */,
 				D2CA1C4925FAB8940037A0E4 /* Assets.xcassets */,
 				D2CA1C4E25FAB8940037A0E4 /* Info.plist */,
@@ -141,9 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D255017F25FBE2430017F2A4 /* ARModel.swift in Sources */,
+				D255018E25FE38AB0017F2A4 /* View+Snapshot.swift in Sources */,
+				D255018B25FE36090017F2A4 /* BarcodeScanner.swift in Sources */,
 				D2CA1C4625FAB8920037A0E4 /* ContentView.swift in Sources */,
+				D255018525FD9A620017F2A4 /* ProductViewModel.swift in Sources */,
+				D255018225FBE3460017F2A4 /* ARDisplayView.swift in Sources */,
 				D2CA1C4425FAB8920037A0E4 /* AppDelegate.swift in Sources */,
+				D255019125FFCB5F0017F2A4 /* ImagePicker.swift in Sources */,
+				D2D11754260630F900599C4D /* MainMenuView.swift in Sources */,
 				D2CA1C4825FAB8920037A0E4 /* Experience.rcproject in Sources */,
+				D2D117572606C9A200599C4D /* ARGameView.swift in Sources */,
+				D255018825FD9AA00017F2A4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kalaydzhiev.martin.ARtest2;
+				PRODUCT_BUNDLE_IDENTIFIER = kalaydzhiev.martin.NutritionAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +337,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kalaydzhiev.martin.ARtest2;
+				PRODUCT_BUNDLE_IDENTIFIER = kalaydzhiev.martin.NutritionAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
